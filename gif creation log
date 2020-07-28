@@ -1,0 +1,20 @@
+francis@francis-B450-AORUS-M:~$ ls
+assign2     Documents   linuxpocketguide     Music     svncheckout     Videos
+assign2sub  Downloads   LPG-stuff.tar.gz     Pictures  svn-commit.tmp
+Desktop     helloworld  ml-latest-small.zip  Public    Templates
+francis@francis-B450-AORUS-M:~$ cd Desktop
+francis@francis-B450-AORUS-M:~/Desktop$ ls
+gifFile
+francis@francis-B450-AORUS-M:~/Desktop$ cd gifFile
+francis@francis-B450-AORUS-M:~/Desktop/gifFile$ ls
+letters
+francis@francis-B450-AORUS-M:~/Desktop/gifFile$ cd letters
+francis@francis-B450-AORUS-M:~/Desktop/gifFile/letters$ ls
+b.jpeg  c.jpeg  e.jpeg  g.jpeg  k.jpg  l.jpeg  n.jpeg  o.jpeg  r.jpeg  y.jpeg
+francis@francis-B450-AORUS-M:~/Desktop/gifFile/letters$ convert -delay 30 -loop 0 *.jpeg animatedGIF.gif
+francis@francis-B450-AORUS-M:~/Desktop/gifFile/letters$ ls
+animatedGIF.gif  c.jpeg  g.jpeg  l.jpeg  o.jpeg  y.jpeg
+b.jpeg           e.jpeg  k.jpg   n.jpeg  r.jpeg
+francis@francis-B450-AORUS-M:~/Desktop/gifFile/letters$ 
+
+

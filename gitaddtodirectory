@@ -1,0 +1,26 @@
+francis@francis-B450-AORUS-M:~/assign2$ ls
+README.md
+francis@francis-B450-AORUS-M:~/assign2$ nano dummytext.txt
+francis@francis-B450-AORUS-M:~/assign2$ ls
+dummytext.txt  README.md
+francis@francis-B450-AORUS-M:~/assign2$ nano dummytext.txt
+francis@francis-B450-AORUS-M:~/assign2$ git add dummytext.txt
+francis@francis-B450-AORUS-M:~/assign2$ git commit -m "I added dummytext.txt"
+[master 25ba9fd] I added dummytext.txt
+ 1 file changed, 8 insertions(+)
+ create mode 100644 dummytext.txt
+francis@francis-B450-AORUS-M:~/assign2$ git remote add origin https://github.com/francisrigor96/CISC-3140-Assignment-2.git
+fatal: remote origin already exists.
+francis@francis-B450-AORUS-M:~/assign2$ git push -u origin master
+Username for 'https://github.com': francisrigor96
+Password for 'https://francisrigor96@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 432 bytes | 432.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/francisrigor96/CISC-3140-Assignment-2.git
+   9355308..25ba9fd  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+francis@francis-B450-AORUS-M:~/assign2$ 
+

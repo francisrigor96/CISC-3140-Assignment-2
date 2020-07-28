@@ -1,0 +1,32 @@
+francis@francis-B450-AORUS-M:~$ curl --version
+curl 7.58.0 (x86_64-pc-linux-gnu) libcurl/7.58.0 OpenSSL/1.1.1 zlib/1.2.11 libidn2/2.0.4 libpsl/0.19.1 (+libidn2/2.0.4) nghttp2/1.30.0 librtmp/2.3
+Release-Date: 2018-01-24
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP HTTP2 UnixSockets HTTPS-proxy PSL 
+francis@francis-B450-AORUS-M:~$ curl -o ml-latest-small.zip https://grouplens.org/datasets/movielens/latest/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14422    0 14422    0     0  39297      0 --:--:-- --:--:-- --:--:-- 39297
+francis@francis-B450-AORUS-M:~$ ls
+assign2     Documents   linuxpocketguide     Music     svncheckout     Videos
+assign2sub  Downloads   LPG-stuff.tar.gz     Pictures  svn-commit.tmp
+Desktop     helloworld  ml-latest-small.zip  Public    Templates
+francis@francis-B450-AORUS-M:~$ cd Downloads
+francis@francis-B450-AORUS-M:~/Downloads$ ls
+ml-latest-small.zip
+francis@francis-B450-AORUS-M:~/Downloads$ unzip ml-latest-small.zip
+Archive:  ml-latest-small.zip
+   creating: ml-latest-small/
+  inflating: ml-latest-small/links.csv  
+  inflating: ml-latest-small/tags.csv  
+  inflating: ml-latest-small/ratings.csv  
+  inflating: ml-latest-small/README.txt  
+  inflating: ml-latest-small/movies.csv  
+francis@francis-B450-AORUS-M:~/Downloads$ ls
+ml-latest-small  ml-latest-small.zip
+francis@francis-B450-AORUS-M:~/Downloads$ cd ml-latest-small
+francis@francis-B450-AORUS-M:~/Downloads/ml-latest-small$ ls
+links.csv  movies.csv  ratings.csv  README.txt  tags.csv
+
+
+

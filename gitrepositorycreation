@@ -1,0 +1,20 @@
+francis@francis-B450-AORUS-M:~/assign2$ echo "# CISC-3140-Assignment-2" >> README.md
+francis@francis-B450-AORUS-M:~/assign2$ git init
+Reinitialized existing Git repository in /home/francis/assign2/.git/
+francis@francis-B450-AORUS-M:~/assign2$ git add README.md
+francis@francis-B450-AORUS-M:~/assign2$ git commit -m "first commit"
+[master (root-commit) 9355308] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+francis@francis-B450-AORUS-M:~/assign2$ git remote add origin https://github.com/francisrigor96/CISC-3140-Assignment-2.git
+francis@francis-B450-AORUS-M:~/assign2$ git push -u origin master
+Username for 'https://github.com': francisrigor96
+Password for 'https://francisrigor96@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 243 bytes | 243.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/francisrigor96/CISC-3140-Assignment-2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+francis@francis-B450-AORUS-M:~/assign2$ 
+
