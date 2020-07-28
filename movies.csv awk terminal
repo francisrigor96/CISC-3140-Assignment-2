@@ -1,0 +1,210 @@
+francis@francis-B450-AORUS-M:~$ ls
+assign2     Documents   linuxpocketguide     Music     svncheckout     Videos
+assign2sub  Downloads   LPG-stuff.tar.gz     Pictures  svn-commit.tmp
+Desktop     helloworld  ml-latest-small.zip  Public    Templates
+francis@francis-B450-AORUS-M:~$ cd Downloads
+francis@francis-B450-AORUS-M:~/Downloads$ ls
+ml-latest-small  ml-latest-small.zip
+francis@francis-B450-AORUS-M:~/Downloads$ cd ml-latest-small
+francis@francis-B450-AORUS-M:~/Downloads/ml-latest-small$ ls
+links.csv  movies.csv  ratings.csv  README.txt  tags.csv
+francis@francis-B450-AORUS-M:~/Downloads/ml-latest-small$ awk -F"," 'NR > 1 && NR < 200  {print $2}' movies.csv | sort
+Ace Ventura: When Nature Calls (1995)
+"Addiction
+Amateur (1994)
+"Amazing Panda Adventure
+"American President
+Angels and Insects (1995)
+Anne Frank Remembered (1995)
+Antonia's Line (Antonia) (1995)
+Apollo 13 (1995)
+Assassins (1995)
+"Awfully Big Adventure
+Babe (1995)
+"Babysitter
+Bad Boys (1995)
+Balto (1995)
+"Basketball Diaries
+Batman Forever (1995)
+Beautiful Girls (1996)
+Beauty of the Day (Belle de jour) (1967)
+Bed of Roses (1996)
+Before and After (1996)
+Before Sunrise (1995)
+Before the Rain (Pred dozhdot) (1994)
+Beyond Rangoon (1995)
+Big Bully (1996)
+"Big Green
+Billy Madison (1995)
+Bio-Dome (1996)
+"Birdcage
+Black Sheep (1996)
+Blue in the Face (1995)
+Boomerang (1992)
+Bottle Rocket (1996)
+"Boys of St. Vincent
+Boys on the Side (1995)
+Braveheart (1995)
+"Bridges of Madison County
+Broken Arrow (1996)
+"Brothers McMullen
+"Browning Version
+Burnt by the Sun (Utomlyonnye solntsem) (1994)
+Bushwhacked (1995)
+Canadian Bacon (1995)
+Casino (1995)
+Casper (1995)
+Castle Freak (1995)
+Catwalk (1996)
+Chungking Express (Chung Hing sam lam) (1994)
+Circle of Friends (1995)
+City Hall (1996)
+"City of Lost Children
+Clerks (1994)
+Clockers (1995)
+Clueless (1995)
+Congo (1995)
+Copycat (1995)
+Crimson Tide (1995)
+"Crossing Guard
+Crumb (1994)
+"Cry
+"Cure
+Cutthroat Island (1995)
+Dangerous Minds (1995)
+Dead Man Walking (1995)
+Dead Presidents (1995)
+Death and the Maiden (1994)
+Desperado (1995)
+Destiny Turns on the Radio (1995)
+Devil in a Blue Dress (1995)
+Die Hard: With a Vengeance (1995)
+Disclosure (1994)
+Dolores Claiborne (1995)
+Don Juan DeMarco (1995)
+Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996)
+"Doom Generation
+Down Periscope (1996)
+Dracula: Dead and Loving It (1995)
+Drop Zone (1994)
+Dumb & Dumber (Dumb and Dumber) (1994)
+Dunston Checks In (1996)
+Eye for an Eye (1996)
+Fair Game (1995)
+Father of the Bride Part II (1995)
+First Knight (1995)
+Flirting With Disaster (1996)
+Four Rooms (1995)
+Free Willy 2: The Adventure Home (1995)
+French Twist (Gazon maudit) (1995)
+Friday (1995)
+From Dusk Till Dawn (1996)
+Georgia (1995)
+Get Shorty (1995)
+GoldenEye (1995)
+Grumpier Old Men (1995)
+Hackers (1995)
+Happy Gilmore (1996)
+"Hate (Haine
+Heat (1995)
+Heidi Fleiss: Hollywood Madam (1995)
+Home for the Holidays (1995)
+How to Make an American Quilt (1995)
+If Lucy Fell (1996)
+"Indian in the Cupboard
+In the Bleak Midwinter (1995)
+It Takes Two (1995)
+Jade (1995)
+Jeffrey (1995)
+Johnny Mnemonic (1995)
+Judge Dredd (1995)
+Jumanji (1995)
+Jupiter's Wife (1994)
+"Juror
+Jury Duty (1995)
+Kicking and Screaming (1995)
+Kids (1995)
+Lamerica (1994)
+Lawnmower Man 2: Beyond Cyberspace (1996)
+Leaving Las Vegas (1995)
+Living in Oblivion (1995)
+Lord of Illusions (1995)
+Love & Human Remains (1993)
+Mad Love (1995)
+Mallrats (1995)
+Man of the Year (1995)
+Mary Reilly (1996)
+Mighty Aphrodite (1995)
+Mighty Morphin Power Rangers: The Movie (1995)
+"Misérables
+Money Train (1995)
+Mortal Kombat (1995)
+Mr. Holland's Opus (1995)
+Mr. Wrong (1996)
+Muppet Treasure Island (1996)
+Mute Witness (1994)
+Nadja (1994)
+"Net
+"NeverEnding Story III
+Nick of Time (1995)
+Nico Icon (1995)
+Nine Months (1995)
+Nixon (1995)
+Nobody Loves Me (Keiner liebt mich) (1994)
+Now and Then (1995)
+Once Upon a Time... When We Were Colored (1995)
+Othello (1995)
+Party Girl (1995)
+Persuasion (1995)
+Pie in the Sky (1996)
+Pocahontas (1995)
+"Postman
+Powder (1995)
+"Prophecy
+Reckless (1995)
+Restoration (1995)
+Richard III (1995)
+Rob Roy (1995)
+Rumble in the Bronx (Hont faan kui) (1995)
+Sabrina (1995)
+Safe (1995)
+"Scarlet Letter
+Screamers (1995)
+Sense and Sensibility (1995)
+Seven (a.k.a. Se7en) (1995)
+Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)
+Showgirls (1995)
+Smoke (1995)
+Something to Talk About (1995)
+Species (1995)
+"Steal Big
+Strange Days (1995)
+Sudden Death (1995)
+Taxi Driver (1976)
+Things to Do in Denver When You're Dead (1995)
+Three Wishes (1995)
+To Die For (1995)
+Tom and Huck (1995)
+Total Eclipse (1995)
+"To Wong Foo
+Toy Story (1995)
+Twelve Monkeys (a.k.a. 12 Monkeys) (1995)
+Two if by Sea (1996)
+"Umbrellas of Cherbourg
+Under Siege 2: Dark Territory (1995)
+Unforgettable (1996)
+Unstrung Heroes (1995)
+Unzipped (1995)
+Up Close and Personal (1996)
+"Usual Suspects
+Vampire in Brooklyn (1995)
+Waiting to Exhale (1995)
+"Walk in the Clouds
+Waterworld (1995)
+When Night Is Falling (1995)
+"White Balloon
+White Man's Burden (1995)
+White Squall (1996)
+Wild Bill (1995)
+"Young Poisoner's Handbook
+francis@francis-B450-AORUS-M:~/Downloads/ml-latest-small$ 
