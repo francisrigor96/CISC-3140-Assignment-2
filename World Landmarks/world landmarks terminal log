@@ -1,0 +1,21 @@
+francis@francis-B450-AORUS-M:~$ ls
+assign2     Documents   linuxpocketguide     Music     svncheckout     Videos
+assign2sub  Downloads   LPG-stuff.tar.gz     Pictures  svn-commit.tmp
+Desktop     helloworld  ml-latest-small.zip  Public    Templates
+francis@francis-B450-AORUS-M:~$ cd Desktop
+francis@francis-B450-AORUS-M:~/Desktop$ ls
+ gifFile  'World Landmarks'
+francis@francis-B450-AORUS-M:~/Desktop$ cd 'World Landmarks'
+francis@francis-B450-AORUS-M:~/Desktop/World Landmarks$ ls
+'brandenburg gate.jpg'     'great wall.jpg'         'st basil.jpg'
+'christ the redeemer.jpg'  'macchu picchu.jpg'       stonehenge.jpg
+ Eiffel-Tower-Paris.jpg     petra.jpg               'tower of pisa.jpg'
+'great sphinx.jpg'         'statue of liberty.jpg'
+francis@francis-B450-AORUS-M:~/Desktop/World Landmarks$ convert -delay 50 -loop 0 *.jpg worldLandmarks.gif
+francis@francis-B450-AORUS-M:~/Desktop/World Landmarks$ ls
+'brandenburg gate.jpg'     'great wall.jpg'         'st basil.jpg'
+'christ the redeemer.jpg'  'macchu picchu.jpg'       stonehenge.jpg
+ Eiffel-Tower-Paris.jpg     petra.jpg               'tower of pisa.jpg'
+'great sphinx.jpg'         'statue of liberty.jpg'   worldLandmarks.gif
+francis@francis-B450-AORUS-M:~/Desktop/World Landmarks$ 
+
